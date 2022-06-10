@@ -1,0 +1,725 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+// Main Header
+.main-header {
+  height: 84.7rem;
+  background-color: #f1f1f1;
+  position: relative;
+  overflow: hidden;
+  padding: 0 1rem;
+  .vector-img {
+    position: absolute;
+    right: -3rem;
+    top: 36.6rem;
+    width: 19.5rem;
+    height: 27rem;
+    transform: rotate(-15deg);
+  }
+  .main-nav,
+  .second-nav {
+    justify-content: space-between;
+    a {
+      color: #000;
+    }
+  }
+}
+.main-nav {
+  height: 9rem;
+  padding-right: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e3e3e3;
+  .figura {
+    span {
+      margin-left: 1.5rem;
+    }
+    i {
+      height: 2.5rem;
+      vertical-align: middle;
+      font-size: 12px;
+      transform: rotate(45deg);
+      margin-right: -0.3rem;
+      color: #292929;
+    }
+  }
+}
+.main-link {
+  font-family: 'AmstelvarAlpha', sans-serif;
+  font-size: 28px;
+}
+.glass {
+  a {
+    padding-left: 0;
+  }
+}
+.shoping-account {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  padding-right: 0;
+  a {
+    padding-right: 0;
+  }
+}
+.navbar-nav {
+  li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.second-nav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-top: 3rem;
+  padding-bottom: 3.4rem;
+  padding-right: 0;
+  a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.collections {
+  padding-left: 0;
+  padding-right: 0;
+  gap: 10rem;
+  .text-side {
+    width: 68.2rem;
+    .text-side-text {
+      h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 7.4rem;
+        line-height: 5.5rem;
+        color: #000;
+        margin-bottom: 5.2rem;
+        margin-top: 15.5rem;
+      }
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 5.5rem;
+        color: #000;
+        margin-bottom: 6.6rem;
+      }
+    }
+    .shoping-button {
+      height: 7.2rem;
+      width: 23.3rem;
+      button {
+        background-color: #1e2832;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 2.9rem;
+        line-height: 5.5rem;
+        align-items: center;
+        justify-content: center;
+        border: none;
+      }
+    }
+  }
+  .img-side {
+    width: 44.2rem;
+    height: 57rem;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 16rem 0;
+      z-index: 100;
+      padding-top: 3rem;
+      position: relative;
+    }
+    .border-img {
+      width: 100%;
+      height: 95%;
+      border-radius: 16rem 0;
+      border: 2px solid #afafaf;
+      position: absolute;
+      content: '';
+      top: 5rem;
+      left: 1.8rem;
+    }
+  }
+}
+
+// Main Header
+// Section Brand
+.section-brand {
+  height: 25rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  img {
+    width: 100%;
+  }
+}
+// Section Brand
+// Section Models
+.section-models {
+  display: grid;
+  grid-template-columns: 5.2rem 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+  padding-left: 0;
+  padding-right: 0;
+  img {
+    width: 100%;
+  }
+  .models-img-1 {
+    background: url('../img/section2-1.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-row: 1 / span 2;
+  }
+  .models-img-3 {
+    background: url('../img/section2-3.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .models-img-2 {
+    background: url('../img/section2-2.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .models-img-4 {
+    background: url('../img/section2-4.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .models-img-5 {
+    background: url('../img/section2-5.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    .models-img-5-text {
+      justify-content: space-between;
+      height: 5.2rem;
+      background-color: #1e2832;
+      color: #fff;
+      align-items: center;
+      position: absolute;
+      padding: 0 1rem;
+      content: '';
+      width: 100%;
+      bottom: 0;
+      p {
+        margin-bottom: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.6rem;
+      }
+    }
+  }
+  .models-text {
+    grid-row: 1 / span 2;
+    text-align: center;
+
+    writing-mode: vertical-rl;
+    line-height: 4.98rem;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 3.4rem;
+      font-weight: 400;
+    }
+  }
+}
+// Section Models
+// Section New Products
+.section-new-products {
+  padding-top: 10rem;
+  margin-top: 10rem;
+  h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-bottom: 4.5rem;
+  }
+  .new-products-nav {
+    justify-content: space-between;
+    li {
+      a:link {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.6rem;
+      }
+    }
+    .btn-new-products {
+      display: inline-block;
+      width: 8.8rem;
+      height: 3.2rem;
+      color: #fff;
+      background-color: #1e2832;
+      font-size: 1.6rem;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: capitalize;
+      font-weight: 300;
+    }
+  }
+  .new-products-showcase-row-1 {
+    gap: 1.9rem;
+    img {
+      width: 100%;
+    }
+    .new-products-showcase-1 {
+      position: relative;
+      .new-products-showcase-1-text {
+        justify-content: space-between;
+        content: '';
+        position: absolute;
+        bottom: 0;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        height: 5.6rem;
+        background-color: #1e2832;
+        color: #fff;
+        align-items: center;
+        width: 100%;
+        span {
+          font-size: 1.8rem;
+          font-weight: 300;
+          font-family: 'Roboto', sans-serif;
+        }
+      }
+    }
+    .new-products-showcase-4 {
+      position: relative;
+    }
+    .new-products-showcase-4::before {
+      position: absolute;
+      content: 'SALE';
+      background-color: #1e2832;
+      color: #fff;
+      padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+      top: 3rem;
+      font-size: 1.2rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+  .new-products-showcase-row-2 {
+    gap: 1.9rem;
+    .row-2-txt {
+      width: 100%;
+      padding-left: 1.9rem;
+      padding-right: 1.9rem;
+      height: 11rem;
+      h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding-top: 1.6rem;
+      }
+      .row-2-txt-1 p:first-child {
+        font-size: 1.6rem;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        color: #777777;
+      }
+      .row-2-txt-1 p:last-child {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .row-2-txt-price p:last-child span:first-child {
+        text-decoration: line-through;
+        color: #777777;
+      }
+      .row-2-txt-price p:last-child span:last-child {
+        color: #ff6f61;
+      }
+    }
+  }
+  .new-products-showcase-row-3 {
+    gap: 1.9rem;
+    img {
+      width: 100%;
+    }
+    .new-products-showcase-5 {
+      position: relative;
+
+      i {
+        position: absolute;
+        left: 1.5rem;
+        top: 18.4rem;
+      }
+    }
+    .new-products-showcase-5::before {
+      position: absolute;
+      content: 'HOT';
+      background-color: #ff6f61;
+      color: #fff;
+      padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+      top: 30px;
+      font-size: 1.2rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .new-products-showcase-6 {
+      position: relative;
+      i {
+        position: absolute;
+        right: 1.5rem;
+        top: 18.4rem;
+      }
+    }
+    .new-products-showcase-6::before {
+      position: absolute;
+      content: 'SALE';
+      background-color: #1e2832;
+      color: #fff;
+      padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+      top: 3rem;
+      font-size: 1.2rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .new-products-showcase-4 {
+      position: relative;
+    }
+    .new-products-showcase-4::before {
+      position: absolute;
+      content: 'SALE';
+      background-color: #1e2832;
+      color: #fff;
+      padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+      top: 3rem;
+      font-size: 1.2rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+}
+// Section New Products
+// Section Big Logos
+.section-big-logos {
+  margin-bottom: 12rem;
+  .all-logos {
+    height: 80rem;
+    background: url('../img/section4-velikaslika.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    .small-logo {
+      content: '';
+      position: absolute;
+      right: 42rem;
+      top: 28rem;
+    }
+    .big-logo {
+      content: '';
+      position: absolute;
+      right: -23rem;
+      top: 7rem;
+    }
+    .logo-text {
+      position: absolute;
+      width: 50.4rem;
+      height: 14.7rem;
+      right: 11rem;
+      top: 40rem;
+      p {
+        color: #fff;
+        font-weight: 400;
+        font-size: 2.6rem;
+        line-height: 3.65rem;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .logo-btn {
+      position: absolute;
+      right: 36.9rem;
+      top: 66rem;
+      button {
+        display: inline-block;
+        width: 24.5rem;
+        height: 7.2rem;
+        background: #ffffff;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-weight: 400;
+        font-size: 2.9rem;
+
+        padding: 0.8rem 3rem 0.8rem 3rem;
+        border: none;
+      }
+    }
+  }
+}
+// Section Big Logos
+// Section Best Sellers, Section New Products
+.section-best-sellers,
+.section-new-products {
+  padding-top: 0;
+  .container-fluid {
+    padding: 0;
+  }
+}
+.section-new-products {
+  margin-bottom: 4.5rem;
+  .navbar {
+    margin-bottom: 3.5rem;
+  }
+}
+.section-best-sellers {
+  margin-bottom: 14rem;
+}
+// Section Best Sellers, Section New Products
+// Section Discount Instagram
+.section-discount-instagram {
+  background-color: #f1f1f1;
+  .discount-instagram-row-1,
+  .discount-instagram-row-3 {
+    margin-bottom: 6rem;
+    h2 {
+      text-align: center;
+      font-size: 4.5rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      line-height: 5.27rem;
+    }
+  }
+  .discount-instagram-row-2 {
+    gap: 2rem;
+    margin-bottom: 7rem;
+    img {
+      width: 100%;
+    }
+    .overlay-instagram {
+      background: url('../img/section6-6.png') no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+      }
+      i {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        color: #fff;
+        transform: translateX(-15px);
+      }
+    }
+  }
+  .discount-instagram-row-3 {
+    margin-bottom: 8rem;
+  }
+  .discount-instagram-row-4 {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    .submit-form {
+      input:first-child {
+        width: 64.3rem;
+        border: none;
+        border-bottom: 2px solid #000;
+        margin-right: 2.7rem;
+        padding: 0.8rem;
+        font-size: 1.6rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: #717171;
+        background-color: inherit;
+      }
+    }
+    .submit-form input:last-child {
+      width: 90px;
+      border: none;
+      border-bottom: 2px solid #000;
+      background-color: inherit;
+      padding: 0.8rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+    }
+  }
+}
+// Section Discount Instagram
+// Footer
+footer {
+  margin-top: 14rem;
+  .footer-widget-1 {
+    .figura-bottom {
+      span {
+        margin-left: 1rem;
+      }
+      i {
+        height: 15px;
+        vertical-align: middle;
+        font-size: 1.2rem;
+        transform: rotate(45deg);
+        margin-right: -0.3rem;
+        color: #292929;
+      }
+    }
+    p {
+      margin-top: 3rem;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 2.1rem;
+      color: #292929;
+    }
+    .footer-icons {
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      .social-icon {
+        margin-right: 3.4rem;
+      }
+    }
+  }
+  .footer-widget-2,
+  .footer-widget-3,
+  .footer-widget-4 {
+    padding-left: 5rem;
+    ul {
+      li {
+        line-height: 3.5rem;
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: #292929;
+          font-size: 1.4rem;
+          font-weight: 400;
+          font-family: 'Open Sans', sans-serif;
+        }
+      }
+    }
+    h5 {
+      padding-left: 2rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+    }
+  }
+}
+// Footer
+// Footer Background
+.footer-background {
+  background-color: #1e2832;
+  .footer-img {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9rem;
+    height: 5.2rem;
+    color: white;
+    p {
+      margin-bottom: 0;
+      font-weight: 600;
+      font-size: 1.2rem;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+}
+// Footer Background
+// Media Queries
+@media (max-width: 1600px) {
+  .vector-img {
+    display: none;
+  }
+}
+@media (max-width: 995px) {
+  .img-side {
+    display: none;
+  }
+  .text-side {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .shoping-button {
+    display: inline-block;
+    margin: auto;
+  }
+}
+@media (max-width: 880px) {
+  html {
+    font-size: 45%;
+  }
+  .main-header {
+    height: 70rem;
+  }
+  .main-header {
+    .collections {
+      .text-side {
+        .text-side-text {
+          h1 {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+  .section-big-logos {
+    .all-logos {
+      .small-logo {
+        right: 22rem;
+        top: 28rem;
+      }
+      .big-logo {
+        right: -42rem;
+      }
+      .logo-btn {
+        right: 22rem;
+      }
+      .logo-text {
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+  .section-best-sellers {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 544px) {
+  .section-big-logos {
+    .all-logos {
+      .logo-btn {
+        display: none;
+      }
+    }
+  }
+  .section-discount-instagram {
+    .discount-instagram-row-4 {
+      .submit-form {
+        input:first-child {
+          width: 30rem;
+        }
+      }
+    }
+  }
+}
+// Media Queries
